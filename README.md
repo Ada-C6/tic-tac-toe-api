@@ -186,6 +186,7 @@ Run `rails test` to run the full test suite.
 This API can be deployed to [Heroku](https://heroku.com/) with the following commands (assuming you have the [Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli) installed):
 ```bash
 $ heroku create
+$ git push heroku master
 $ heroku run bundle exec rails db:schema:load
 $ heroku open
 ```
